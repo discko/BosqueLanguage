@@ -572,7 +572,7 @@ A tuple is a list of entries where each entry provides a type and can be marked 
 ```none
 [Int, Bool]   //Tuple of an Int and Bool
 [Int, ?:Bool] //Tuple of an Int and optionally a Bool
-[Int, ...]    //Tuple of an Int an possibly other entries
+[Int, ...]    //Tuple of an Int and possibly other entries
 ```
 
 The subtype relation on tuples `T1` and `T2` is a lexicographic order on the tuple entries where a required entry is always less than an optional (`?`) entry and open tuples match any suffixes of a closed tuple.
